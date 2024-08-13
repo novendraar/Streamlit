@@ -5,5 +5,4 @@ networkx
 mlxtend
 streamlit
 matplotlib
-io
 setuptools
