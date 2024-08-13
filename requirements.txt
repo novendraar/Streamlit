@@ -1,7 +1,9 @@
-streamlit==1.24.1
-numpy==1.23.5
-pandas==2.0.3
-plotly==5.15.0
-networkx==3.1
-mlxtend==0.22.0
-matplotlib==3.7.1
+numpy
+pandas
+plotly
+networkx
+mlxtend
+streamlit
+matplotlib
+io
+setuptools
