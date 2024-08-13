@@ -181,6 +181,7 @@ def main():
                 <h2 class="bold-text">Tabel Frekuensi Item</h2>
                 """, unsafe_allow_html=True)
     frequentItems = apriori(data, use_colnames=True, min_support=0.02)
+    frequentItems['itemsets'] = frequentItems['itemsets'].apply(lambda x: list(x))
     st.dataframe(frequentItems)
     st.markdown("""
                 <h2 class="bold-text">Tabel Rules Asosiasi</h2>
