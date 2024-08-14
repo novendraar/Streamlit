@@ -103,12 +103,6 @@ def main():
                 <hr style="border: 1px solid #000; width: 100%;"/>
                 """, unsafe_allow_html=True)
     st.markdown("""
-                <div class="boxes-color">
-                    <p class ="header-daftar bold-text">Daftar Anggota Tim:</p>
-                    <p class ="list-daftar bold-text">1. Marsheila Prima Andika <br>2. Megawati Aswiya Putri <br>3. Jilaan Hani Safitri <br>4. Novendra Aliffian Ramadhan</p>
-                </div>
-                """, unsafe_allow_html=True)
-    st.markdown("""
                 <div class="centered">
                     <h1>Bakery Data Analysis</h1>
                 </div>
